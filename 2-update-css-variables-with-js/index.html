@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+        <div class="d-flex flex-column mb-3">
+            <div class="p-2">
+                <p>Spacing</p>
+                <input type="range" min="1" max="220" id="rangeSpacing" value="20">
+            </div>
+            <div class="p-2">
+                <p>Blur</p>
+                <input type="range" min="0" max="10" id="rangeBlur" value="0">
+            </div>
+            <div class="p-2">
+                <p>Color</p>
+                <input type="color" name="color" id="color">
+            </div>
+        </div>
+        <div class="border-image" id="borderImage">
+            <img src="img/photo.png" alt="" width="410px">
+        </div>
+</div>
+
+
+<script src="js/app.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
