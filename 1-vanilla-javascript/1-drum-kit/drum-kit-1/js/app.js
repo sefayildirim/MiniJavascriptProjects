@@ -24,7 +24,7 @@ document.addEventListener('keydown', function(event) {
     }
     // Press F
     if (event.code === 'KeyF') {
-        let audioClap = new Audio('sounds/kick.wav');
+        let audioClap = new Audio('sounds/openhat.wav');
         audioClap.play();
         fBorder.classList.add('border-5')
     }
