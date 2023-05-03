@@ -1,0 +1,6 @@
+.border-image{
+    border-style: solid;
+    border-width: 20px;
+    border-color: #1a1d20;
+    filter: blur(0px);
+}
