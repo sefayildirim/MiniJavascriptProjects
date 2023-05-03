@@ -12,14 +12,14 @@ const borderMap = {
     'KeyF': '#fBorder'
 };
 
-document.addEventListener('keydown', function(event) {
+$(document).on('keydown', function(event) {
     const audio = new Audio(soundMap[event.code]);
     audio.play();
-    const border = document.querySelector(borderMap[event.code]);
-    border.classList.add('border-5');
+    const border = $(borderMap[event.code]);
+    border.addClass('border-5');
 });
 
-document.addEventListener('keyup', function(event) {
-    const border = document.querySelector(borderMap[event.code]);
-    border.classList.remove('border-5');
+$(document).on('keyup', function(event) {
+    const border = $(borderMap[event.code]);
+    border.removeClass('border-5');
 });
