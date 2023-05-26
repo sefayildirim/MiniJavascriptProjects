@@ -6,7 +6,7 @@ let fBorder = document.querySelector("#fBorder");
 document.addEventListener('keydown', function(event) {
     // Press A
     if (event.code === 'KeyA') {
-        let audioClap = new Audio('sounds/clap.wav');
+        let audioClap = new Audio('sounds/tom.wav');
         audioClap.play();
         aBorder.classList.add('border-5')
     }
